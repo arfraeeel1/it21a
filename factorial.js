@@ -1,3 +1,10 @@
+const readline " require("readline");
+
+const rl = readline.createInterface({
+    input:ProcessingInstruction.stdin,
+    output:ProcessingInstruction.stdout
+})
+
 console.log("Factorial Application");
 
 console.log ("1. Say Hello");
