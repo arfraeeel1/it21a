@@ -62,6 +62,8 @@ jayboy.getName;
 jayboy.getAttack();
 jayboy.addItem(sword);
 console.log(jayboy.totalAttack());
+jayboy.addItem(sword);
+console.log(jayboy.totalAttack());
 
 
 const pol = new Mage("Pol", 80 , 8, 50);
@@ -70,7 +72,7 @@ pol.getStats();
 
 function performAbilitty(Hero){
     console.log("\n");
-   hero.useAbility();
+   jayboy.useAbility();
 
     performAbilitty(jayboy);
     performAbilitty(pol);
