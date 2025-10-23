@@ -1,0 +1,18 @@
+{
+    "labels":["Communication", "Teamwork", "Problem Solving", "Creativity", "Adaptability", "Leadership"],
+    "datasets":[
+        {
+            "label":"Person A",
+            "data":[80,90,70,75,70],
+            "backgroundColor":"rgba(245, 73, 39, 0.2)",
+            "borderColor":"rgba(245, 73, 39, 1)"
+
+        },
+        {
+            "label":"Person B",
+            "data":[80,90,70,75,70],
+            "backgroundColor":"rgba(75, 192, 192, 0.2)",
+            "borderColor":"rgba(75, 192, 192, 1)"
+        }
+    ]
+}
