@@ -56,5 +56,3 @@
             chart.init();
         })
 
-</script>
-</html>
