@@ -14,6 +14,11 @@
             justify-content:center;
             background-color:rgb(226,266,226);
         }
+
+        .container div{
+            width:50%;
+            margin:10px;
+        }
      </style>
 
 </head>
@@ -21,12 +26,17 @@
     <h1>Dashboard</h1>
 
       <div class="container">
-        <div>
+        <div class = "card">
+        <div class = "card body">
+            <h5 class = "card title">Dead Chart</h5>
+        </div>
              <canvas id = "linechart"></canvas>
         </div>
-            <div>
+            <div class = "card">
+                <div class = "card body">
+            <h5 class = "card title">Status HP</h5>
     <canvas id = "radarchart"></canvas>
-    </div>
+    <div>
         
 </body>
 <script src = "dashboard.js"></script>
