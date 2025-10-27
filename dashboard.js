@@ -54,5 +54,4 @@
         document.addEventListener("DOMContentLoaded",()=>{
             const chart=new LineChart("linechart","linedata.json");
             chart.init();
-        })
-
+        });
